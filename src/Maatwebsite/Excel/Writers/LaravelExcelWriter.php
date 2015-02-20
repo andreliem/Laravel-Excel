@@ -332,8 +332,7 @@ class LaravelExcelWriter {
         // Render the XLS
         $this->_render();
 
-		//@midstride - custom
-		//Support a custom file extension
+		//@midstride
 		$extension = Config::get('excel.export.store.ext', $ext);
 
         // Set the storage path and file
